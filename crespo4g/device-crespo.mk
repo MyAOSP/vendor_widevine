@@ -15,4 +15,5 @@
 LOCAL_PATH := vendor/widevine/crespo
 
 # widevine blob necessary for Nexus S hardware
-$(call inherit-product, vendor/widevine/crespo/device-crespo.mk)
+PRODUCT_COPY_FILES := \
+    $(LOCAL_PATH)/proprietary/libdrmdecrypt.so:system/lib/libdrmdecrypt.so
