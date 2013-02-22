@@ -15,4 +15,7 @@
 # Widevine blob(s) necessary for Toroplus hardware
 PRODUCT_PACKAGES := \
     libdrmdecrypt \
+    libdrmwvmplugin \
+    libwvdrm_L1 \
+    libwvm \
     libWVStreamControlAPI_L1
