@@ -14,4 +14,8 @@
 
 # Widevine blob(s) necessary for Maguro hardware
 PRODUCT_PACKAGES := \
-    libdrmdecrypt
+    libdrmdecrypt \
+    libdrmwvmplugin \
+    libwvdrm_L1 \
+    libwvm \
+    libWVStreamControlAPI_L1
